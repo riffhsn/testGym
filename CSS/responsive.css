@@ -1,0 +1,445 @@
+@media (min-width:320px) and (max-width:575.98px) {
+
+  .navbar-nav {
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .navbar-toggler-icon-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler button {
+    color: white;
+  }
+
+  .menu_bg ul li a::after {
+    display: none;
+  }
+
+  .menu_bg ul li a::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: all linear .4s;
+  }
+
+  .menu_bg ul li a:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .banner_text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #e23e38;
+  }
+
+  .banner_text {
+    padding: 250px 50px;
+  }
+
+  .banner_text p {
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+  }
+
+  .banner_button a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 13px;
+    margin: 5px;
+  }
+
+  .banner_button a:hover {
+    background-color: #e23e38;
+  }
+
+  /* About Us */
+  #about_us .bottom {
+    order: 2;
+  }
+
+  #about_us .top {
+    order: 1;
+  }
+
+  .aboutus_text p {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  /* Team */
+
+  .team_overlay_content ul {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Testimonial */
+
+  .testimonial_text p {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .membership-card {
+    margin: 0 auto;
+  }
+
+  .testimonial_slider .slick-dots {
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+    left: 67%;
+  }
+
+  .partner_slider {
+    width: 100%;
+  }
+
+  /* Membership */
+
+  .membership-body {
+    margin-bottom: 20px;
+  }
+
+  .membership_ .membership_price h2 span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    z-index: 1;
+  }
+
+  .membership_price h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white !important;
+    z-index: 1;
+  }
+
+  /* footer */
+
+  .footer_1 {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .footer_2 {
+    display: none;
+  }
+
+  .footer_3 {
+    display: none;
+  }
+
+  .footer_4 .contact {
+    margin: 0 auto;
+  }
+
+  .footer_4 .getsocial {
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+
+  .contact {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  .navbar-nav {
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .navbar-toggler-icon-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler button {
+    color: white;
+  }
+
+  .menu_bg ul li a::after {
+    display: none;
+  }
+
+  .menu_bg ul li a::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: all linear .4s;
+  }
+
+  .menu_bg ul li a:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .gallery_img {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team_overlay_content ul {
+    position: absolute;
+    right: 130px;
+    top: 50%;
+  }
+
+  .testimonial_text p {
+    padding: 0 10px;
+  }
+
+  .membership-card {
+    margin: 0 auto;
+  }
+
+  .footer_2 {
+    display: none;
+  }
+
+  .footer_3 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+  .navbar-nav {
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .navbar-toggler-icon-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-toggler button {
+    color: white;
+  }
+
+  .menu_bg ul li a::after {
+    display: none;
+  }
+
+  .menu_bg ul li a::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: all linear .4s;
+  }
+
+  .menu_bg ul li a:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .gallery_img {
+    width: 100%;
+  }
+
+  .team_overlay_content ul {
+    position: absolute;
+    right: 230px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .membership-card {
+    margin-left: 90px;
+  }
+
+  .partner_prev {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+  }
+
+  .partner_next {
+    position: absolute;
+    right: 10px;
+    top: 70px;
+  }
+
+  .footer_4 {
+    margin-left: 25px;
+  }
+
+  .twitter_text p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199.99px) {
+  .team_overlay_content ul {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .team_overlay_content ul li a {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .team_overlay_content i {
+    font-size: 20px;
+  }
+
+  .testimonial_text p {
+    padding: 0 5px 0 10px;
+  }
+
+  .membership-card {
+    height: auto;
+  }
+
+  .membership_price h2 span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .membership_price h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white !important;
+  }
+
+  .card-text h5 {
+    padding-bottom: 8px;
+  }
+
+  .class_item_inner {
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .partner_prev {
+    display: none;
+  }
+
+  .partner_next {
+    display: none;
+  }
+
+  .slick_slider {
+    margin: 0 auto;
+  }
+
+  .partner_slider .slick-dots {
+    display: inline-block;
+    margin: 0;
+  }
+
+}
+
+
+@media (min-width:1200px) and (max-width:1399.99px) {
+  .team_overlay_content ul {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .team_overlay_content ul li a {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .team_overlay_content i {
+    font-size: 20px;
+  }
+
+  .testimonial_text p {
+    padding: 0 5px 0 10px;
+  }
+
+  .class_item_inner {
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .partner_prev {
+    display: none;
+  }
+
+  .partner_next {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .team_overlay_content ul {
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .team_overlay_content ul li a {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+  }
+
+  .team_overlay_content i {
+    font-size: 20px;
+  }
+
+  .testimonial_text p {
+    padding: 0 5px 0 10px;
+  }
+
+  
+
+}
